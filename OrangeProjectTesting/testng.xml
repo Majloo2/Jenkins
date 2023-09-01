@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeTestSuite" parallel="classes">
+  
+    <test name="TestScripts">
+        <classes>
+            <class name="com.orange.testScripts.TestScripts" />
+        </classes>
+    </test>
+
+   
+
+  
+    <parameter name="browser" value="chrome" />
+   
+
+</suite>

@@ -23,7 +23,8 @@ public class TestScripts extends Base {
 	
 	
 	
-	@Test//@Ignore
+	
+	@Test
 	public void LoginPageTests() {
 
 		try {
@@ -47,8 +48,8 @@ public class TestScripts extends Base {
 			// TODO: handle exception
 		}
 	}
-
-	@Test//@Ignore
+	
+	@Test
 	public void DashboardTests() {
 		try {
 
@@ -78,8 +79,8 @@ public class TestScripts extends Base {
 			// TODO: handle exception
 		}
 	}
-
-	@Test//@Ignore
+	
+@Test
 	public void MyInfoTestCases() {
 		try {
 
@@ -114,7 +115,7 @@ public class TestScripts extends Base {
 		}
 	}
 
-	//@Ignore
+	
 	@Test
 	public void TimePageTests() {
 		try {
@@ -160,7 +161,7 @@ public class TestScripts extends Base {
 		}
 	}
 
-	@Test//@Ignore
+	@Test
 	public void PerformancePageTests() throws InterruptedException {
 
 		try {
